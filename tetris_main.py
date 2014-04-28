@@ -1,6 +1,6 @@
 import sys
 from PyQt4 import QtGui
-
+import pygame
 
 def main():
     
@@ -8,7 +8,7 @@ def main():
 
     w = QtGui.QWidget()
     w.resize(500, 600)
-    w.move(300, 300)
+    w.move(400, 20)
     w.setWindowTitle('Tetris')
     w.show()
     
